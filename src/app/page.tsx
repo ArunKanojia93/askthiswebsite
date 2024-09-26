@@ -39,7 +39,7 @@ export default function Home() {
         </p>
       </div>
       <form onSubmit={handleSubmit} className="flex items-center justify-center gap-2 w-full max-w-sm relative">
-        <Input value={url} onChange={(e) => setUrl(e.target.value)} type="text" name="url" id="url" placeholder="https://example.com" className="w-full border border-zinc-700 bg-zinc-800 p-2 rounded-xl text-base pr-16" />
+        <Input value={url} onChange={(e) => setUrl(e.target.value)} type="text" name="url" id="url" placeholder="https://example.com" className="w-full border border-zinc-700 bg-zinc-800 p-2 rounded-xl text-base pr-[72px]" />
         <Button size="sm" className="absolute z-10 border border-border bg-zinc-900 right-2" type="submit">
           <Send className="size-4" />
         </Button>
